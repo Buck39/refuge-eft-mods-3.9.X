@@ -1,0 +1,33 @@
+# sourced from https://github.com/IAMBUDE/mpt-client/blob/main/.gitignore, thank you!
+/*
+
+#Base files
+!.gitignore
+!README.md
+
+#Unneeded stuff
+**/.DS_Store
+**.log
+
+#Include BepInEx core
+!BepInEx
+BepInEx/*
+
+# BepInEx Plugins 
+!BepInEx/plugins
+
+# BepInEx config
+BepInEx/config
+!BepInEx/config/BepInEx.cfg
+
+# mod ignore list
+BepInEx/plugins/Tarky-Menu.dll
+BepInEx/plugins/BossNotifier.dll
+
+#Ignore User/Mods
+User
+User/*
+User/Mods
+
+#Optional Mods BepInEx Plugins
+!optional
