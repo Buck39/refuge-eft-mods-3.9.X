@@ -1,0 +1,6 @@
+{
+  "VisceralDismemberment.dll": [
+    "VolumetricBloodFX.dll",
+	"bundleloader.dll",
+  ],
+}

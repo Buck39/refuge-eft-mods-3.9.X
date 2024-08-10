@@ -1,0 +1,609 @@
+[Message:   BepInEx] BepInEx 5.4.22.0 - EscapeFromTarkov (8/9/2024 3:14:49 PM)
+[Info   :   BepInEx] Running under Unity v0.14.9.3062
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.22.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [spt-prepatch 3.9.5.0]
+[Info   :   BepInEx] 2 patcher plugins loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Info   :   BepInEx] Patching [Assembly-CSharp] with [SPT.PrePatch.SPTPrePatcher]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 19 plugins to load
+[Info   :   BepInEx] Loading [Graphics 1.6.3]
+[Info   :   BepInEx] Loading [Unity Toolkit 1.0.1]
+[Info   :   BepInEx] Loading [Configuration Manager 18.0.1]
+[Info   :   BepInEx] Loading [SPT.Core 3.9.5]
+[Info   :  SPT.Core] Loading: SPT.Core
+[Info   :ModulePatch] Enabled patch ConsistencySinglePatch
+[Info   :ModulePatch] Enabled patch ConsistencyMultiPatch
+[Info   :ModulePatch] Enabled patch GameValidationPatch
+[Info   :ModulePatch] Enabled patch BattlEyePatch
+[Info   :ModulePatch] Enabled patch SslCertificatePatch
+[Info   :ModulePatch] Enabled patch UnityWebRequestPatch
+[Info   :ModulePatch] Enabled patch WebSocketPatch
+[Info   :ModulePatch] Enabled patch TransportPrefixPatch
+[Info   :  SPT.Core] Completed: SPT.Core
+[Info   :   BepInEx] Loading [DrakiaXYZ-Waypoints 1.5.1]
+[Info   :ModulePatch] Enabled patch DebugPatch
+[Info   :ModulePatch] Enabled patch WaypointPatch
+[Info   :ModulePatch] Enabled patch DoorLinkPatch
+[Info   :ModulePatch] Enabled patch DoorLinkStateChangePatch
+[Info   :ModulePatch] Enabled patch SwitchDoorBlockerPatch
+[Info   :ModulePatch] Enabled patch ExfilDoorBlockerPatch
+[Info   :ModulePatch] Enabled patch FindPathPatch
+[Info   :   BepInEx] Loading [dvize.Donuts 1.6.1]
+[Info   :ModulePatch] Enabled patch NewGameDonutsPatch
+[Info   :ModulePatch] Enabled patch BotGroupAddEnemyPatch
+[Info   :ModulePatch] Enabled patch BotMemoryAddEnemyPatch
+[Info   :ModulePatch] Enabled patch MatchEndPlayerDisposePatch
+[Info   :ModulePatch] Enabled patch PatchStandbyTeleport
+[Info   :ModulePatch] Enabled patch BotProfilePreparationHook
+[Info   :ModulePatch] Enabled patch AddEnemyPatch
+[Info   :ModulePatch] Enabled patch ShootDataNullRefPatch
+[Info   :ModulePatch] Enabled patch CoverPointMasterNullRef
+[Info   :ModulePatch] Enabled patch DelayedGameStartPatch
+[Info   :ModulePatch] Enabled patch PlayerFireControlPatchGetter
+[Info   :ModulePatch] Enabled patch PlayerFireControlPatchSetter
+[Info   :   BepInEx] Loading [SPT.Custom 3.9.5]
+[Info   :SPT.Custom] Loading: SPT.Custom
+[Info   :ModulePatch] Enabled patch EasyAssetsPatch
+[Info   :ModulePatch] Enabled patch EasyBundlePatch
+[Info   :ModulePatch] Enabled patch BossSpawnChancePatch
+[Info   :ModulePatch] Enabled patch BotDifficultyPatch
+[Info   :ModulePatch] Enabled patch CoreDifficultyPatch
+[Info   :ModulePatch] Enabled patch OfflineRaidMenuPatch
+[Info   :ModulePatch] Enabled patch OfflineRaidSettingsMenuPatch
+[Info   :ModulePatch] Enabled patch VersionLabelPatch
+[Info   :ModulePatch] Enabled patch IsEnemyPatch
+[Info   :ModulePatch] Enabled patch BotCalledDataTryCallPatch
+[Info   :ModulePatch] Enabled patch BotOwnerDisposePatch
+[Info   :ModulePatch] Enabled patch LocationLootCacheBustingPatch
+[Info   :ModulePatch] Enabled patch CheckAndAddEnemyPatch
+[Info   :ModulePatch] Enabled patch BotSelfEnemyPatch
+[Info   :ModulePatch] Enabled patch AddEnemyToAllGroupsInBotZonePatch
+[Info   :ModulePatch] Enabled patch AirdropPatch
+[Info   :ModulePatch] Enabled patch AirdropFlarePatch
+[Info   :RequestHandler] [REQUEST]: /singleplayer/bossconvert
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/bossconvert
+[Info   :ModulePatch] Enabled patch CustomAiPatch
+[Info   :ModulePatch] Enabled patch AddTraitorScavsPatch
+[Info   :ModulePatch] Enabled patch ExitWhileLootingPatch
+[Info   :ModulePatch] Enabled patch QTEPatch
+[Info   :ModulePatch] Enabled patch PmcFirstAidPatch
+[Info   :ModulePatch] Enabled patch SettingsLocationPatch
+[Info   :ModulePatch] Enabled patch SetLocationIdOnRaidStartPatch
+[Info   :ModulePatch] Enabled patch RagfairFeePatch
+[Info   :ModulePatch] Enabled patch ScavQuestPatch
+[Info   :ModulePatch] Enabled patch FixBrokenSpawnOnSandboxPatch
+[Info   :ModulePatch] Enabled patch BTRControllerInitPatch
+[Info   :ModulePatch] Enabled patch BTRPathLoadPatch
+[Info   :ModulePatch] Enabled patch BTRActivateTraderDialogPatch
+[Info   :ModulePatch] Enabled patch BTRInteractionPatch
+[Info   :ModulePatch] Enabled patch BTRExtractPassengersPatch
+[Info   :ModulePatch] Enabled patch BTRBotAttachPatch
+[Info   :ModulePatch] Enabled patch BTRReceiveDamageInfoPatch
+[Info   :ModulePatch] Enabled patch BTRTurretCanShootPatch
+[Info   :ModulePatch] Enabled patch BTRTurretDefaultAimingPositionPatch
+[Info   :ModulePatch] Enabled patch BTRIsDoorsClosedPath
+[Info   :ModulePatch] Enabled patch BTRPatch
+[Info   :ModulePatch] Enabled patch BTRTransferItemsPatch
+[Info   :ModulePatch] Enabled patch BTREndRaidItemDeliveryPatch
+[Info   :ModulePatch] Enabled patch BTRDestroyAtRaidEndPatch
+[Warning:  HarmonyX] BTRVehicleMovementSpeedPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method virtual void VehicleBase::Update() instead of virtual void VehicleBase::Update().
+[Info   :ModulePatch] Enabled patch BTRVehicleMovementSpeedPatch
+[Info   :ModulePatch] Enabled patch BTRPathConfigMapPrefixPatch
+[Info   :ModulePatch] Enabled patch ScavItemCheckmarkPatch
+[Info   :ModulePatch] Enabled patch ResetTraderServicesPatch
+[Info   :ModulePatch] Enabled patch CultistAmuletRemovalPatch
+[Info   :ModulePatch] Enabled patch HalloweenExtractPatch
+[Info   :ModulePatch] Enabled patch ClampRagdollPatch
+[Info   :ModulePatch] Enabled patch DisablePvEPatch
+[Info   :ModulePatch] Enabled patch InsurancePlaceItem
+[Info   :ModulePatch] Enabled patch FileCachePatch
+[Info   :ModulePatch] Enabled patch PMCSpawnParamPatch
+[Info   :ModulePatch] Enabled patch FixBotgroupMarkofTheUnknown
+[Info   :SPT.Custom] Completed: SPT.Custom
+[Info   :   BepInEx] Loading [spt.Singleplayer 3.9.5]
+[Info   :spt.Singleplayer] Loading: SPT.SinglePlayer
+[Info   :ModulePatch] Enabled patch OfflineSaveProfilePatch
+[Info   :ModulePatch] Enabled patch ExperienceGainPatch
+[Info   :ModulePatch] Enabled patch ScavExperienceGainPatch
+[Info   :ModulePatch] Enabled patch MainMenuControllerPatch
+[Info   :ModulePatch] Enabled patch PlayerPatch
+[Info   :ModulePatch] Enabled patch SelectLocationScreenPatch
+[Info   :ModulePatch] Enabled patch InsuranceScreenPatch
+[Info   :ModulePatch] Enabled patch BotTemplateLimitPatch
+[Info   :ModulePatch] Enabled patch GetNewBotTemplatesPatch
+[Info   :ModulePatch] Enabled patch RemoveUsedBotProfilePatch
+[Info   :ModulePatch] Enabled patch DogtagPatch
+[Info   :ModulePatch] Enabled patch LoadOfflineRaidScreenPatch
+[Info   :ModulePatch] Enabled patch ScavPrefabLoadPatch
+[Info   :ModulePatch] Enabled patch ScavProfileLoadPatch
+[Info   :ModulePatch] Enabled patch ScavExfilPatch
+[Info   :ModulePatch] Enabled patch ExfilPointManagerPatch
+[Info   :ModulePatch] Enabled patch TinnitusFixPatch
+[Info   :ModulePatch] Enabled patch MaxBotPatch
+[Info   :ModulePatch] Enabled patch SpawnPmcPatch
+[Info   :ModulePatch] Enabled patch PostRaidHealingPricePatch
+[Info   :ModulePatch] Enabled patch EndByTimerPatch
+[Info   :ModulePatch] Enabled patch InRaidQuestAvailablePatch
+[Info   :ModulePatch] Enabled patch PostRaidHealScreenPatch
+[Info   :ModulePatch] Enabled patch VoIPTogglerPatch
+[Info   :ModulePatch] Enabled patch MidRaidQuestChangePatch
+[Info   :ModulePatch] Enabled patch HealthControllerPatch
+[Info   :ModulePatch] Enabled patch LighthouseBridgePatch
+[Info   :ModulePatch] Enabled patch LighthouseTransmitterPatch
+[Info   :ModulePatch] Enabled patch EmptyInfilFixPatch
+[Info   :ModulePatch] Enabled patch SmokeGrenadeFuseSoundFixPatch
+[Info   :ModulePatch] Enabled patch PlayerToggleSoundFixPatch
+[Info   :ModulePatch] Enabled patch PluginErrorNotifierPatch
+[Info   :ModulePatch] Enabled patch SpawnProcessNegativeValuePatch
+[Info   :ModulePatch] Enabled patch InsuredItemManagerStartPatch
+[Info   :ModulePatch] Enabled patch MapReadyButtonPatch
+[Info   :ModulePatch] Enabled patch LabsKeycardRemovalPatch
+[Info   :ModulePatch] Enabled patch ScavLateStartPatch
+[Info   :ModulePatch] Enabled patch GetTraderServicesPatch
+[Info   :ModulePatch] Enabled patch PurchaseTraderServicePatch
+[Info   :ModulePatch] Enabled patch ScavSellAllPriceStorePatch
+[Info   :ModulePatch] Enabled patch ScavSellAllRequestPatch
+[Info   :ModulePatch] Enabled patch HideoutQuestIgnorePatch
+[Info   :ModulePatch] Enabled patch LightKeeperServicesPatch
+[Info   :ModulePatch] Enabled patch ScavEncyclopediaPatch
+[Info   :ModulePatch] Enabled patch ScavRepAdjustmentPatch
+[Info   :ModulePatch] Enabled patch AmmoUsedCounterPatch
+[Info   :ModulePatch] Enabled patch ArmorDamageCounterPatch
+[Info   :ModulePatch] Enabled patch FixAchievementsPatch
+[Info   :spt.Singleplayer] Completed: SPT.SinglePlayer
+[Info   :   BepInEx] Loading [SPT.Debugging 3.9.5]
+[Info   :SPT.Debugging] Loading: SPT.Debugging
+[Info   :ModulePatch] Enabled patch EndRaidDebug
+[Info   :ModulePatch] Enabled patch LoggerClassLogPatch
+[Info   :SPT.Debugging] Completed: SPT.Debugging
+[Info   :   BepInEx] Loading [Fika.Core 0.9.8983]
+[Info   : Fika.Core] Received NatPunchServer config from server:
+[Info   : Fika.Core] Enable: False
+[Info   : Fika.Core] Port: 6790
+[Info   : Fika.Core] NatIntroduceAmount: 1
+[Info   :ModulePatch] Enabled patch FikaVersionLabel_Patch
+[Info   :ModulePatch] Enabled patch DisableReadyButton_Patch
+[Info   :ModulePatch] Enabled patch DisableInsuranceReadyButton_Patch
+[Info   :ModulePatch] Enabled patch DisableMatchSettingsReadyButton_Patch
+[Info   :ModulePatch] Enabled patch TarkovApplication_LocalGamePreparer_Patch
+[Info   :ModulePatch] Enabled patch TarkovApplication_LocalGameCreator_Patch
+[Info   :ModulePatch] Enabled patch DeathFade_Patch
+[Info   :ModulePatch] Enabled patch NonWaveSpawnScenario_Patch
+[Info   :ModulePatch] Enabled patch WaveSpawnScenario_Patch
+[Info   :ModulePatch] Enabled patch WeatherNode_Patch
+[Info   :ModulePatch] Enabled patch MatchmakerAcceptScreen_Awake_Patch
+[Info   :ModulePatch] Enabled patch MatchmakerAcceptScreen_Show_Patch
+[Info   :ModulePatch] Enabled patch Minefield_method_2_Patch
+[Info   :ModulePatch] Enabled patch BotCacher_Patch
+[Info   :ModulePatch] Enabled patch AbstractGame_InRaid_Patch
+[Info   :ModulePatch] Enabled patch DisconnectButton_Patch
+[Info   :ModulePatch] Enabled patch ChangeGameModeButton_Patch
+[Info   :ModulePatch] Enabled patch MenuTaskBar_Patch
+[Info   :ModulePatch] Enabled patch GameWorld_Create_Patch
+[Info   :ModulePatch] Enabled patch World_AddSpawnQuestLootPacket_Patch
+[Info   :ModulePatch] Enabled patch TOS_Patch
+[Info   :ModulePatch] Disabled patch BotDifficultyPatch
+[Info   :ModulePatch] Disabled patch AirdropPatch
+[Info   :ModulePatch] Disabled patch AirdropFlarePatch
+[Info   :ModulePatch] Disabled patch VersionLabelPatch
+[Info   :ModulePatch] Disabled patch EmptyInfilFixPatch
+[Info   :ModulePatch] Disabled patch OfflineSpawnPointPatch
+[Info   :ModulePatch] Disabled patch BotTemplateLimitPatch
+[Info   :ModulePatch] Disabled patch OfflineRaidSettingsMenuPatch
+[Info   :ModulePatch] Disabled patch AddEnemyToAllGroupsInBotZonePatch
+[Info   :ModulePatch] Disabled patch MaxBotPatch
+[Info   :ModulePatch] Disabled patch LabsKeycardRemovalPatch
+[Info   :ModulePatch] Disabled patch AmmoUsedCounterPatch
+[Info   :ModulePatch] Disabled patch ArmorDamageCounterPatch
+[Info   :ModulePatch] Disabled patch DogtagPatch
+[Info   :ModulePatch] Disabled patch OfflineSaveProfilePatch
+[Info   :ModulePatch] Disabled patch ScavRepAdjustmentPatch
+[Info   :ModulePatch] Disabled patch DisablePvEPatch
+[Info   :ModulePatch] Disabled patch AddEnemyToAllGroupsInBotZonePatch
+[Info   :ModulePatch] Disabled patch BTRInteractionPatch
+[Info   :ModulePatch] Disabled patch BTRExtractPassengersPatch
+[Info   :ModulePatch] Disabled patch BTRPatch
+[Info   :ModulePatch] Enabled patch BotDifficultyPatch_Override
+[Info   :ModulePatch] Enabled patch ScavProfileLoad_Override
+[Info   :ModulePatch] Enabled patch MaxBotPatch_Override
+[Info   :ModulePatch] Enabled patch BotTemplateLimitPatch_Override
+[Info   :ModulePatch] Enabled patch OfflineRaidSettingsMenuPatch_Override
+[Info   :ModulePatch] Enabled patch AddEnemyToAllGroupsInBotZonePatch_Override
+[Info   :ModulePatch] Enabled patch AirdropBox_Patch
+[Info   :ModulePatch] Enabled patch FikaAirdropFlare_Patch
+[Info   : Fika.Core] Received config from server:
+[Info   : Fika.Core] UseBTR: True
+[Info   : Fika.Core] FriendlyFire: False
+[Info   : Fika.Core] DynamicVExfils: True
+[Info   : Fika.Core] AllowFreeCam: False
+[Info   : Fika.Core] AllowItemSending: True
+[Info   : Fika.Core] BlacklistedItems: 
+[Info   : Fika.Core] ForceSaveOnDeath: False
+[Info   : Fika.Core] UseInertia: True
+[Info   : Fika.Core] SharedQuestProgression: False
+[Info   : Fika.Core] Fika is loaded! Running version: 0.9.8983.25381
+[Info   :RequestHandler] [REQUEST]: /singleplayer/airdrop/config
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/airdrop/config
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/difficulty/core/core
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/difficulty/core/core
+[Info   :ModulePatch] Enabled patch ItemContext_Patch
+[Info   :   BepInEx] Loading [DynamicMaps 0.3.4]
+[Warning:  HarmonyX] BattleUIScreenShowPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method void EFT.UI.BattleUIScreen<EFT.UI.EftBattleUIScreen+GClass3136, EFT.UI.Screens.EEftScreenType>::Show(EFT.GamePlayerOwner owner) instead of void EFT.UI.BattleUIScreen<EFT.UI.EftBattleUIScreen+GClass3136, EFT.UI.Screens.EEftScreenType>::Show(EFT.GamePlayerOwner owner).
+[Info   :ModulePatch] Enabled patch BattleUIScreenShowPatch
+[Info   :ModulePatch] Enabled patch CommonUIAwakePatch
+[Info   :ModulePatch] Enabled patch MapScreenShowPatch
+[Info   :ModulePatch] Enabled patch MapScreenClosePatch
+[Info   :ModulePatch] Enabled patch GameWorldOnDestroyPatch
+[Info   :ModulePatch] Enabled patch GameWorldUnregisterPlayerPatch
+[Info   :ModulePatch] Enabled patch GameWorldRegisterLootItemPatch
+[Info   :ModulePatch] Enabled patch GameWorldDestroyLootPatch
+[Info   :ModulePatch] Enabled patch AirdropBoxOnBoxLandPatch
+[Info   :ModulePatch] Enabled patch PlayerOnDeadPatch
+[Info   :ModulePatch] Enabled patch PlayerInventoryThrowItemPatch
+[Info   :   BepInEx] Loading [BundleLoader 1.0.0]
+[Info   :BundleLoader] Loaded 5 bundles...
+[Info   :   BepInEx] Loading [Visceral Dismemberment 2.0]
+[Info   :ModulePatch] Enabled patch GameStartedPatch
+[Info   :   BepInEx] Loading [SSH EFT Volumetric Blood FX 1.0.0]
+[Info   :   BepInEx] Loading [DrakiaXYZ-BigBrain 1.0.1]
+[Info   :DrakiaXYZ-BigBrain] Loading: DrakiaXYZ-BigBrain
+[Info   :ModulePatch] Enabled patch BotBaseBrainActivatePatch
+[Info   :ModulePatch] Enabled patch BotBrainCreateLogicNodePatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainUpdatePatch
+[Info   :ModulePatch] Enabled patch BotAgentUpdatePatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainActivateLayerPatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainAddLayerPatch
+[Info   :DrakiaXYZ-BigBrain] Completed: DrakiaXYZ-BigBrain
+[Info   :   BepInEx] Loading [SAIN 3.1.0]
+[Info   :ModulePatch] Enabled patch StopRefillMagsPatch
+[Info   :ModulePatch] Enabled patch SetEnvironmentPatch
+[Info   :ModulePatch] Enabled patch SetPanicPointPatch
+[Info   :ModulePatch] Enabled patch AddPointToSearchPatch
+[Info   :ModulePatch] Enabled patch TurnDamnLightOffPatch
+[Info   :ModulePatch] Enabled patch GrenadeThrownActionPatch
+[Info   :ModulePatch] Enabled patch GrenadeExplosionActionPatch
+[Info   :ModulePatch] Enabled patch ShallKnowEnemyPatch
+[Info   :ModulePatch] Enabled patch ShallKnowEnemyLatePatch
+[Info   :ModulePatch] Enabled patch HaveSeenEnemyPatch
+[Info   :ModulePatch] Enabled patch StopSetToNavMeshPatch
+[Info   :ModulePatch] Enabled patch FightShallReloadFixPatch
+[Info   :ModulePatch] Enabled patch EnableVaultPatch
+[Info   :ModulePatch] Enabled patch BotMemoryAddEnemyPatch
+[Info   :ModulePatch] Enabled patch BotGroupAddEnemyPatch
+[Info   :ModulePatch] Enabled patch FixItemTakerPatch
+[Info   :ModulePatch] Enabled patch FixItemTakerPatch2
+[Info   :ModulePatch] Enabled patch RotateClampPatch
+[Info   :ModulePatch] Enabled patch EncumberedPatch
+[Info   :ModulePatch] Enabled patch DoorOpenerPatch
+[Info   :ModulePatch] Enabled patch DoorDisabledPatch
+[Info   :ModulePatch] Enabled patch CrawlPatch
+[Info   :ModulePatch] Enabled patch CrawlPatch2
+[Info   :ModulePatch] Enabled patch PoseStaminaPatch
+[Info   :ModulePatch] Enabled patch AimStaminaPatch
+[Info   :ModulePatch] Enabled patch GlobalShootSettingsPatch
+[Info   :ModulePatch] Enabled patch GlobalLookPatch
+[Info   :ModulePatch] Enabled patch TryPlayShootSoundPatch
+[Info   :ModulePatch] Enabled patch OnMakingShotPatch
+[Info   :ModulePatch] Enabled patch HearingSensorPatch
+[Info   :ModulePatch] Enabled patch VoicePatch
+[Info   :ModulePatch] Enabled patch GrenadeCollisionPatch
+[Info   :ModulePatch] Enabled patch GrenadeCollisionPatch2
+[Info   :ModulePatch] Enabled patch ToggleSoundPatch
+[Info   :ModulePatch] Enabled patch SpawnInHandsSoundPatch
+[Info   :ModulePatch] Enabled patch PlaySwitchHeadlightSoundPatch
+[Info   :ModulePatch] Enabled patch BulletImpactPatch
+[Info   :ModulePatch] Enabled patch TreeSoundPatch
+[Info   :ModulePatch] Enabled patch DoorBreachSoundPatch
+[Info   :ModulePatch] Enabled patch DoorOpenSoundPatch
+[Info   :ModulePatch] Enabled patch FootstepSoundPatch
+[Info   :ModulePatch] Enabled patch SprintSoundPatch
+[Info   :ModulePatch] Enabled patch GenericMovementSoundPatch
+[Info   :ModulePatch] Enabled patch JumpSoundPatch
+[Info   :ModulePatch] Enabled patch DryShotPatch
+[Info   :ModulePatch] Enabled patch ProneSoundPatch
+[Info   :ModulePatch] Enabled patch SoundClipNameCheckerPatch
+[Info   :ModulePatch] Enabled patch SoundClipNameCheckerPatch2
+[Info   :ModulePatch] Enabled patch AimSoundPatch
+[Info   :ModulePatch] Enabled patch LootingSoundPatch
+[Info   :ModulePatch] Enabled patch SetInHandsGrenadePatch
+[Info   :ModulePatch] Enabled patch SetInHandsFoodPatch
+[Info   :ModulePatch] Enabled patch SetInHandsMedsPatch
+[Info   :ModulePatch] Enabled patch JumpPainPatch
+[Info   :ModulePatch] Enabled patch PlayerHurtPatch
+[Info   :ModulePatch] Enabled patch PlayerTalkPatch
+[Info   :ModulePatch] Enabled patch BotTalkPatch
+[Info   :ModulePatch] Enabled patch BotTalkManualUpdatePatch
+[Info   :ModulePatch] Enabled patch DisableLookUpdatePatch
+[Info   :ModulePatch] Enabled patch UpdateLightEnablePatch
+[Info   :ModulePatch] Enabled patch UpdateLightEnablePatch2
+[Info   :ModulePatch] Enabled patch ToggleNightVisionPatch
+[Info   :ModulePatch] Enabled patch SetPartPriorityPatch
+[Info   :ModulePatch] Enabled patch GlobalLookSettingsPatch
+[Info   :ModulePatch] Enabled patch WeatherTimeVisibleDistancePatch
+[Info   :ModulePatch] Enabled patch NoAIESPPatch
+[Info   :ModulePatch] Enabled patch BotLightTurnOnPatch
+[Info   :ModulePatch] Enabled patch VisionSpeedPatch
+[Info   :ModulePatch] Enabled patch VisionDistancePatch
+[Info   :ModulePatch] Enabled patch CheckFlashlightPatch
+[Info   :ModulePatch] Enabled patch DoHitAffectPatch
+[Info   :ModulePatch] Enabled patch HitAffectApplyPatch
+[Info   :ModulePatch] Enabled patch PlayerHitReactionDisablePatch
+[Info   :ModulePatch] Enabled patch SetAimStatusPatch
+[Info   :ModulePatch] Enabled patch AimOffsetPatch
+[Info   :ModulePatch] Enabled patch AimTimePatch
+[Info   :ModulePatch] Enabled patch ForceNoHeadAimPatch
+[Info   :ModulePatch] Enabled patch AimRotateSpeedPatch
+[Info   :ModulePatch] Enabled patch ResetGrenadePatch
+[Info   :ModulePatch] Enabled patch SetGrenadePatch
+[Info   :ModulePatch] Enabled patch FullAutoPatch
+[Info   :ModulePatch] Enabled patch SemiAutoPatch
+[Info   :ModulePatch] Enabled patch SemiAutoPatch2
+[Info   :ModulePatch] Enabled patch SemiAutoPatch3
+[Info   :ModulePatch] Enabled patch AddBotComponentPatch
+[Info   :ModulePatch] Enabled patch AddGameWorldPatch
+[Info   :ModulePatch] Enabled patch GetBotController
+[Info   :ModulePatch] Enabled patch GetBotSpawner
+[Info   :   BepInEx] Loading [Raid Review 0.2.0]
+[Info   :Raid Review] RAID_REVIEW :::: INFO :::: Mod Loaded
+[Info   :Raid Review] RAID_REVIEW :::: INFO :::: Config Loaded
+[Info   :ModulePatch] Enabled patch RAID_REVIEW_Player_OnGameStartedPatch
+[Info   :ModulePatch] Enabled patch RAID_REVIEW_Player_OnGameSessionEndPatch
+[Info   :ModulePatch] Enabled patch RAID_REVIEW_menuTaskBar_setButtonsAvailablePatch
+[Info   :ModulePatch] Enabled patch RAID_REVIEW_Player_OnBeenKilledByAggressorPatch
+[Info   :ModulePatch] Enabled patch RAID_REVIEW_Player_OnItemAddedOrRemovedPatch
+[Info   :ModulePatch] Enabled patch RAID_REVIEW_ClientGameWorld_ShotDelegatePatch
+[Info   :Raid Review] RAID_REVIEW :::: INFO :::: Patches Loaded
+[Info   :Raid Review] RAID_REVIEW :::: INFO :::: Connected to backend
+[Info   :   BepInEx] Loading [BossNotifier 1.5.0]
+[Info   :ModulePatch] Enabled patch BossLocationSpawnPatch
+[Info   :ModulePatch] Enabled patch NewGamePatch
+[Info   :ModulePatch] Enabled patch BotBossPatch
+[Info   :BossNotifier] Plugin BossNotifier is loaded!
+[Info   :   BepInEx] Loading [Tyfon.AutoDeposit 2.0.0]
+[Info   :ModulePatch] Enabled patch AddInventoryButtonsPatch
+[Info   :ModulePatch] Enabled patch AddTransferButtonPatch
+[Message:   BepInEx] Chainloader startup complete
+[Info   :   Console] 08/10/2024 00:10:24|Fatal|WebSocket.connect|No connection could be made because the target machine actively refused it.
+
+[Info   : Telemetry] [RAID-REVIEW] WebSocket closed.
+[Info   :ModulePatch] Enabled patch AmandsPlayerPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsNVGPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsApplyNVGPatch
+[Warning:  HarmonyX] AmandsGraphicsHBAOPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method void HBAO_Core::ApplyPreset(HBAO_Core+Preset preset) instead of void HBAO_Core::ApplyPreset(HBAO_Core+Preset preset).
+[Info   :ModulePatch] Enabled patch AmandsGraphicsHBAOPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsPrismEffectsPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsOpticPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsOpticSightPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsCameraClassPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsmethod_22Patch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsTacticalComboVisualControllerPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsFastBlurPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsMethod_7Patch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsFastBlurHitPatch
+[Warning:  HarmonyX] AmandsBattleUIScreenPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method void EFT.UI.BattleUIScreen<EFT.UI.EftBattleUIScreen+GClass3136, EFT.UI.Screens.EEftScreenType>::Show(EFT.GamePlayerOwner owner) instead of void EFT.UI.BattleUIScreen<EFT.UI.EftBattleUIScreen+GClass3136, EFT.UI.Screens.EEftScreenType>::Show(EFT.GamePlayerOwner owner).
+[Info   :ModulePatch] Enabled patch AmandsBattleUIScreenPatch
+[Info   :ModulePatch] Enabled patch AmandsEffectsControllerPatch
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/version
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/version
+[Info   :RequestHandler] [REQUEST]: /singleplayer/release
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/release
+[Info   :RequestHandler] [REQUEST]: /singleplayer/enableBSGlogging
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/enableBSGlogging
+[Warning:DonutsPlugin] Loaded 12 Donuts Scenario Folders
+[Warning:DonutsPlugin] Loaded 4 Donuts Scenario Folders
+[Warning:DonutsPlugin] Loaded 12 Donuts Scenario Folders
+[Warning:DonutsPlugin] Loaded 4 Donuts Scenario Folders
+[Warning:DonutsPlugin] Adding scenario: live-like
+[Warning:DonutsPlugin] Adding scenario: live-like-alt
+[Warning:DonutsPlugin] Adding scenario: morescavs
+[Warning:DonutsPlugin] Adding scenario: morepmcs
+[Warning:DonutsPlugin] Adding scenario: crazyraids
+[Warning:DonutsPlugin] Adding scenario: impossibleraids
+[Warning:DonutsPlugin] Adding scenario: quietraids
+[Warning:DonutsPlugin] Adding scenario: scav-raids
+[Warning:DonutsPlugin] Adding scenario: starting-pmcs-only-live-like
+[Warning:DonutsPlugin] Adding scenario: starting-pmcs-only-live-like-alt
+[Warning:DonutsPlugin] Adding scenario: starting-pmcs-only-morescavs
+[Warning:DonutsPlugin] Adding scenario: starting-pmcs-only-quietraids
+[Warning:DonutsPlugin] Adding scenario: Live Like (Random)
+[Warning:DonutsPlugin] Adding scenario: Starting PMCs Only (Random)
+[Warning:DonutsPlugin] Adding scenario: A Whole Lotta SCAVs (Random)
+[Warning:DonutsPlugin] Adding scenario: Death Wish (Random)
+[Warning:DonutsPlugin] Loaded 16 PMC Scenarios and Finished Generating
+[Warning:DonutsPlugin] Adding scenario: live-like
+[Warning:DonutsPlugin] Adding scenario: live-like-alt
+[Warning:DonutsPlugin] Adding scenario: morescavs
+[Warning:DonutsPlugin] Adding scenario: morepmcs
+[Warning:DonutsPlugin] Adding scenario: crazyraids
+[Warning:DonutsPlugin] Adding scenario: impossibleraids
+[Warning:DonutsPlugin] Adding scenario: quietraids
+[Warning:DonutsPlugin] Adding scenario: scav-raids
+[Warning:DonutsPlugin] Adding scenario: starting-pmcs-only-live-like
+[Warning:DonutsPlugin] Adding scenario: starting-pmcs-only-live-like-alt
+[Warning:DonutsPlugin] Adding scenario: starting-pmcs-only-morescavs
+[Warning:DonutsPlugin] Adding scenario: starting-pmcs-only-quietraids
+[Warning:DonutsPlugin] Adding scenario: Live Like (Random)
+[Warning:DonutsPlugin] Adding scenario: Starting PMCs Only (Random)
+[Warning:DonutsPlugin] Adding scenario: A Whole Lotta SCAVs (Random)
+[Warning:DonutsPlugin] Adding scenario: Death Wish (Random)
+[Warning:DonutsPlugin] Loaded 16 SCAV Scenarios and Finished Generating
+[Info   :RequestHandler] [REQUEST]: /singleplayer/bundles
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/bundles
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_sara_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_tara_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_amanda_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/ultimate/ultimate_kelly_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/rare/rare_diana_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/packs/pack_red.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_kristen_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_carmen_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_kylie_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/rare/rare_rose_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_nicole_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_bree_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/rare/rare_nina_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/rare/rare_bianca_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/rare/rare_emily_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/rare/rare_ella_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/epic/epic_crystal_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_jasmine_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_sophia_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/rare/rare_claire_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_yasmin_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_zoe_card.bundle
+[Info   :BundleManager] CACHE: Loading locally cases/binder_teal.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_jade_card.bundle
+[Info   :BundleManager] CACHE: Loading locally cases/binder_orange.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_faith_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_abigail_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/epic/epic_rachel_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_tina_card.bundle
+[Info   :BundleManager] CACHE: Loading locally cases/binder_white.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/rare/rare_amber_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_hannah_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_lindsay_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/rare/rare_gloria_card.bundle
+[Info   :BundleManager] CACHE: Loading locally cases/binder_red.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_harper_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_violet_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/rare/rare_juliet_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_invite_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_fiona_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/rare/rare_heidi_card.bundle
+[Info   :BundleManager] CACHE: Loading locally card_case/card_case.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/packs/pack_blue.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/epic/epic_eleanor_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/ultimate/ultimate_mai_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/rare/rare_leah_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_kaitlyn_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_andrea_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_cassie_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/epic/epic_angel_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_trish_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/epic/epic_dawn_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_natalie_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/ultimate/ultimate_erica_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/rare/rare_isabella_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_alyssa_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_samantha_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/epic/epic_tricia_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_taylor_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_monica_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/packs/pack_green.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_rebecca_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_brittany_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/rare/rare_deserae_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/epic/epic_nivea_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_vanessa_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_grace_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_iris_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/epic/epic_gigi_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_valerie_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_penny_card.bundle
+[Info   :BundleManager] CACHE: Loading locally cases/binder_default.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_chelsea_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/ultimate/ultimate_veronica_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_megan_card.bundle
+[Info   :BundleManager] CACHE: Loading locally cases/binder_purple.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/epic/epic_vanity_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_nicky_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_wendy_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/rare/rare_felicia_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_barbara_card.bundle
+[Info   :BundleManager] CACHE: Loading locally cases/binder_blue.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_melaina_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/epic/epic_lucia_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_jesse_card.bundle
+[Info   :BundleManager] CACHE: Loading locally collectables/cards/common/common_amelia_card.bundle
+[Info   :BundleManager] CACHE: Loading locally cases/binder_green.bundle
+[Info   :      SAIN] [SAIN.ModDetection] : [[CheckPlugins()]:] : [SAIN: Project Fika Detected.]
+[Info   :FikaModHandler] Loaded plugin: [Graphics] with GUID [com.Amanda.Graphics] and crc32 [2853184277]
+[Info   :FikaModHandler] Loaded plugin: [Unity Toolkit] with GUID [com.Arys.UnityToolkit] and crc32 [2537187180]
+[Info   :FikaModHandler] Loaded plugin: [Configuration Manager] with GUID [com.bepis.bepinex.configurationmanager] and crc32 [2453335703]
+[Info   :FikaModHandler] Loaded plugin: [SPT.Core] with GUID [com.SPT.core] and crc32 [531354114]
+[Info   :FikaModHandler] Loaded plugin: [DrakiaXYZ-Waypoints] with GUID [xyz.drakia.waypoints] and crc32 [3911956338]
+[Info   :FikaModHandler] Loaded plugin: [dvize.Donuts] with GUID [com.dvize.Donuts] and crc32 [1778726574]
+[Info   :FikaModHandler] Loaded plugin: [SPT.Custom] with GUID [com.SPT.custom] and crc32 [2214233937]
+[Info   :FikaModHandler] Loaded plugin: [spt.Singleplayer] with GUID [com.SPT.singleplayer] and crc32 [2500692775]
+[Info   :FikaModHandler] Loaded plugin: [SPT.Debugging] with GUID [com.SPT.debugging] and crc32 [2043671768]
+[Info   :FikaModHandler] Loaded plugin: [Fika.Core] with GUID [com.fika.core] and crc32 [3962609512]
+[Info   :FikaModHandler] Loaded plugin: [DynamicMaps] with GUID [com.mpstark.DynamicMaps] and crc32 [527692099]
+[Info   :FikaModHandler] Loaded plugin: [BundleLoader] with GUID [com.pandahhcorp.bundleloader] and crc32 [3365744836]
+[Info   :FikaModHandler] Loaded plugin: [Visceral Dismemberment] with GUID [com.servph.servphDismemberment] and crc32 [1447836771]
+[Info   :FikaModHandler] Loaded plugin: [SSH EFT Volumetric Blood FX] with GUID [com.servph.VolumetricBloodFX] and crc32 [2817001566]
+[Info   :FikaModHandler] Loaded plugin: [DrakiaXYZ-BigBrain] with GUID [xyz.drakia.bigbrain] and crc32 [3763084826]
+[Info   :FikaModHandler] Loaded plugin: [SAIN] with GUID [me.sol.sain] and crc32 [4183800089]
+[Info   :FikaModHandler] Loaded plugin: [Raid Review] with GUID [ekky.raidreview] and crc32 [2620673986]
+[Info   :FikaModHandler] Loaded plugin: [BossNotifier] with GUID [Mattdokn.BossNotifier] and crc32 [1553995169]
+[Info   :FikaModHandler] Loaded plugin: [Tyfon.AutoDeposit] with GUID [Tyfon.AutoDeposit] and crc32 [2113138253]
+[Info   :RequestHandler] [REQUEST]: /fika/client/check/mods
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /fika/client/check/mods
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/version
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/version
+[Info   :ModulePatch] Server version: SPT 3.9.5 - e4ba92
+[Info   :DynamicMaps] Trying to attach to MapScreen
+[Info   :DynamicMaps] Trying to load MapDef from path: M:\EFT-MP - 39x\BepInEx\plugins\DynamicMaps\Maps\Customs_TarkovDev\Customs_TarkovDev.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Customs (TarkovDev)
+[Info   :DynamicMaps] Trying to load MapDef from path: M:\EFT-MP - 39x\BepInEx\plugins\DynamicMaps\Maps\Factory_TarkovDev\Factory_TarkovDev.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Factory (TarkovDev)
+[Info   :DynamicMaps] Trying to load MapDef from path: M:\EFT-MP - 39x\BepInEx\plugins\DynamicMaps\Maps\GroundZero_TarkovDev\GroundZero_TarkovDev.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Ground Zero (TarkovDev)
+[Info   :DynamicMaps] Trying to load MapDef from path: M:\EFT-MP - 39x\BepInEx\plugins\DynamicMaps\Maps\Interchange_TarkovDev\Interchange_TarkovDev.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Interchange (TarkovDev)
+[Info   :DynamicMaps] Trying to load MapDef from path: M:\EFT-MP - 39x\BepInEx\plugins\DynamicMaps\Maps\Labs_TarkovDev\Labs_TarkovDev.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Labs (TarkovDev)
+[Info   :DynamicMaps] Trying to load MapDef from path: M:\EFT-MP - 39x\BepInEx\plugins\DynamicMaps\Maps\Lighthouse_TarkovData\Lighthouse_TarkovData.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Lighthouse (TarkovData)
+[Info   :DynamicMaps] Trying to load MapDef from path: M:\EFT-MP - 39x\BepInEx\plugins\DynamicMaps\Maps\Reserve_TarkovData\Reserve_TarkovData.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Reserve (TarkovData)
+[Info   :DynamicMaps] Trying to load MapDef from path: M:\EFT-MP - 39x\BepInEx\plugins\DynamicMaps\Maps\Shoreline_TarkovData\Shoreline_TarkovData.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Shoreline (TarkovData)
+[Info   :DynamicMaps] Trying to load MapDef from path: M:\EFT-MP - 39x\BepInEx\plugins\DynamicMaps\Maps\Streets_TarkovData\Streets_TarkovData.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Streets of Tarkov (TarkovData)
+[Info   :DynamicMaps] Trying to load MapDef from path: M:\EFT-MP - 39x\BepInEx\plugins\DynamicMaps\Maps\Woods_TarkovData\Woods_TarkovData.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Woods (TarkovData)
+[Info   :DynamicMaps] Precaching sprite: Maps/Customs_TarkovDev/Layers/customs_level_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Customs_TarkovDev/Layers/customs_level_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Customs_TarkovDev/Layers/customs_level_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Customs_TarkovDev/Layers/customs_level_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Factory_TarkovDev/Layers/factory_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Factory_TarkovDev/Layers/factory_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Factory_TarkovDev/Layers/factory_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Factory_TarkovDev/Layers/factory_layer_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/GroundZero_TarkovDev/Layers/ground_zero_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/GroundZero_TarkovDev/Layers/ground_zero_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/GroundZero_TarkovDev/Layers/ground_zero_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/GroundZero_TarkovDev/Layers/ground_zero_layer_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Interchange_TarkovDev/Layers/interchange_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Interchange_TarkovDev/Layers/interchange_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Interchange_TarkovDev/Layers/interchange_layer_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Labs_TarkovDev/Layers/labs_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Labs_TarkovDev/Layers/labs_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Labs_TarkovDev/Layers/labs_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Lighthouse_TarkovData/Layers/lighthouse_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Reserve_TarkovData/Layers/reserve_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Reserve_TarkovData/Layers/reserve_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Shoreline_TarkovData/Layers/shoreline_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Shoreline_TarkovData/Layers/shoreline_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Shoreline_TarkovData/Layers/shoreline_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Shoreline_TarkovData/Layers/shoreline_layer_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_3.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_4.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Woods_TarkovData/Layers/woods_layer_0.png
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
