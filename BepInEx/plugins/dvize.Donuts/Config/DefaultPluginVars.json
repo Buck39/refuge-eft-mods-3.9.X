@@ -1,11 +1,11 @@
 {
   "PluginEnabled": true,
-  "DespawnEnabledPMC": true,
-  "DespawnEnabledSCAV": true,
+  "DespawnEnabledPMC": false,
+  "DespawnEnabledSCAV": false,
   "HardCapEnabled": false,
   "coolDownTimer": 300.0,
-  "pmcGroupChance": "Default",
-  "scavGroupChance": "Default",
+  "pmcGroupChance": "Low",
+  "scavGroupChance": "Low",
   "botDifficultiesPMC": "Normal",
   "botDifficultiesSCAV": "Normal",
   "botDifficultiesOther": "Normal",
@@ -74,8 +74,10 @@
   "DeleteSpawnMarkerKey": "None",
   "saveNewFileOnly": false,
   "WriteToFileKey": "KeypadMinus",
-  "windowRectX": 20.0,
-  "windowRectY": 20.0,
+  "pmcScenarioSelection": "Starting PMCs Only (Random)",
+  "scavScenarioSelection": "live-like",
+  "windowRectX": 1196.0,
+  "windowRectY": 364.0,
   "windowRectWidth": 1664.0,
   "windowRectHeight": 936.0
 }

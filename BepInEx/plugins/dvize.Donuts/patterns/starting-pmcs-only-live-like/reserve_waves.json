@@ -68,6 +68,25 @@
             "all"
           ]
         }
+      ],
+      "BOSSES": [
+        {
+          "BossName": "pmcbot",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "MaxTriggersBeforeCooldown": 1,
+          "IgnoreTimerFirstSpawn": true,
+          "TriggerID": "autoId_00000_D2_LEVER",
+          "Zones": [
+            "Zone_Underground_Bunker_Hotspot"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 3,
+              "BossEscortType": "pmcbot"
+            }
+          ]
+        }
       ]
     }
   }
